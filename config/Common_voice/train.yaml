@@ -1,8 +1,8 @@
 path:
-  ckpt_path: "/scratch/s5962080/FastSpeech2_new/Thesis_commonvoice/output/ckpt/twlj"
-  log_path: "/scratch/s5962080/FastSpeech2_new/Thesis_commonvoice/output/log/twlj"
-  result_path: "/scratch/s5962080/FastSpeech2_new/Thesis_commonvoice/output/result/twlj"
-  preprocessed_path: "/scratch/s5962080/FastSpeech2_new/Thesis_commonvoice/preprocessed_data/twlj_mix"
+  ckpt_path: "/Thesis_commonvoice/output/ckpt/twlj"
+  log_path: "/Thesis_commonvoice/output/log/twlj"
+  result_path: "/Thesis_commonvoice/output/result/twlj"
+  preprocessed_path: "/Thesis_commonvoice/preprocessed_data/twlj_mix"
 optimizer:
   batch_size: 16
   betas: [0.9, 0.98]
