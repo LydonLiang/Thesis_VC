@@ -1,10 +1,10 @@
 dataset: "twlj_mix"
 
 path:
-  corpus_path: "/scratch/s5962080/FastSpeech2_new/Thesis_commonvoice/twlj_mix"
-  lexicon_path: "/scratch/s5962080/FastSpeech2_new/Thesis_commonvoice/lexicon/combined_plus.dict"
-  raw_path: "/scratch/s5962080/FastSpeech2_new/Thesis_commonvoice/twlj_mix"
-  preprocessed_path: "/scratch/s5962080/FastSpeech2_new/Thesis_commonvoice/preprocessed_data/twlj_mix"
+  corpus_path: "/Thesis_commonvoice/twlj_mix"
+  lexicon_path: "/Thesis_commonvoice/lexicon/combined_plus.dict"
+  raw_path: "/Thesis_commonvoice/twlj_mix"
+  preprocessed_path: "/Thesis_commonvoice/preprocessed_data/twlj_mix"
 
 preprocessing:
   val_size: 512
