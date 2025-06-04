@@ -11,6 +11,20 @@ To reproduce the experiments, the following datasets are required (all the neede
   Download from: [https://drive.google.com/file/d/1NtGghWkhH1E183XI3yPX_9w-SpBwhWu3/view?usp=sharing)
 Make sure to preprocess the datasets according to the structure defined in the `preprocessed_data/` folder and follow the alignment instructions using MFA.
 
+## Inference
+
+To run inference, please enter the following command in your terminal:
+
+```bash
+python3 synthesize.py \
+  --restore_step 50000 \
+  --mode batch \
+  --source /Thesis_commonvoice/inference_sentence/tw_inference_phonemized.txt\
+  -p /scratch/s5962080/FastSpeech2_new/config/LJSpeech/preprocess.yaml \
+  -m /scratch/s5962080/FastSpeech2_new/config/LJSpeech/model.yaml \
+  -t /scratch/s5962080/FastSpeech2_new/config/LJSpeech/train.yaml
+
+
 ## Disclaimer
 
 This repository is currently under development as part of an academic thesis. Feel free to use or modify the code, but please provide appropriate credit.
