@@ -9,7 +9,6 @@ To reproduce the experiments, the following datasets are required (all the neede
 
 - **Thesis_commonvoice**  
   Download from: [https://drive.google.com/file/d/1NtGghWkhH1E183XI3yPX_9w-SpBwhWu3/view?usp=sharing)
-Make sure to preprocess the datasets according to the structure defined in the `preprocessed_data/` folder and follow the alignment instructions using MFA.
 
 ## Inference
 
