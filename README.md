@@ -19,7 +19,7 @@ To run inference, please enter the following command in your terminal:
 python3 synthesize.py \
   --restore_step 50000 \
   --mode batch \
-  --source /Thesis_commonvoice/inference_sentence/tw_inference_phonemized.txt\
+  --source /Thesis_commonvoice/inference_sentence/merged.txt\
   -p /config/Common_voice/preprocess.yaml \
   -m /config/Common_voice/model.yaml \
   -t /config/Common_voice/train.yaml
