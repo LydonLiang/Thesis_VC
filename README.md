@@ -9,12 +9,14 @@ This project uses a subset of the following publicly available datasets:
 
 - **Taiwanese Mandarin (Common Voice subset)**  
   Download from: [https://commonvoice.mozilla.org/zh-TW/datasets](https://commonvoice.mozilla.org/zh-TW/datasets) (the June 24th 2019 version)
-  Citation:
+  
+Citation:
   > Ardila, R., Branson, M., Davis, K., Kohler, M., Meyer, J., Henretty, M., ... & Church, K. (2020). Common Voice: A massively-multilingual speech corpus. In *Proceedings of LREC*.
 
 - **American English (LJSpeech)**  
   Download from: [https://keithito.com/LJ-Speech-Dataset/](https://keithito.com/LJ-Speech-Dataset/)
-  Citation:
+  
+Citation:
   > Ito, K. (2017). The LJ Speech Dataset. [https://keithito.com/LJ-Speech-Dataset/](https://keithito.com/LJ-Speech-Dataset/)
   
 ## Inference
