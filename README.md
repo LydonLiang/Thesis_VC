@@ -54,6 +54,15 @@ python3 synthesize.py \
 
 ## Disclaimer
 
-This repository is currently under development as part of an academic thesis. Feel free to use or modify the code, but please provide appropriate credit.
+This repository is developed as part of a master's thesis project in the field of speech technology.  
+It is intended solely for academic and research purposes. The code, configurations, and processed resources are provided "as is" without any warranty.
+
+Please note:
+- The original codebase is based on [ming024/FastSpeech2](https://github.com/ming024/FastSpeech2) and modified for cross-lingual voice conversion.
+- This repository does not include any copyrighted or proprietary audio files.
+- All datasets referenced (Common Voice, LJSpeech) are publicly available and used under their respective licenses.
+- Any errors, modifications, or results presented here are solely the responsibility of the author and do not represent the views of the original authors or affiliated institutions.
+
+If you use or adapt this work, please provide appropriate credit.
 
 
