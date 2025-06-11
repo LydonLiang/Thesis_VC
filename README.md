@@ -59,7 +59,7 @@ python3 train.py \
   -p config/Common_voice/preprocess.yaml \
   -m config/Common_voice/model.yaml \
   -t config/Common_voice/train.yaml
-
+```
 
 ## Inference
 
