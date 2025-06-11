@@ -50,6 +50,17 @@ Contents include:
   - Acoustic model: English (US) ARPA acoustic model v3.0.0
   - Dictionary: English (US) ARPA dictionary v3.0.0
 
+## Training
+
+To train the voice conversion model from scratch, run:
+
+```bash
+python3 train.py \
+  -p config/Common_voice/preprocess.yaml \
+  -m config/Common_voice/model.yaml \
+  -t config/Common_voice/train.yaml
+
+
 ## Inference
 
 To run inference, please enter the following command in your terminal:
