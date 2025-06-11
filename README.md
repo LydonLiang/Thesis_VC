@@ -18,7 +18,26 @@ Citation:
   
 Citation:
   > Ito, K. (2017). The LJ Speech Dataset. [https://keithito.com/LJ-Speech-Dataset/](https://keithito.com/LJ-Speech-Dataset/)
-  
+
+## Resources  
+To reproduce the experiments and inference results, the following preprocessed resources are available for download:
+
+[Download Resources (checkpoint, TextGrid, label files, split lists)] (https://drive.google.com/drive/folders/1WF3kUR9l9YqVOvrRiMphB7YKJCrHpPnf?usp=sharing)
+
+Contents include:
+
+ `checkpoint_50000.pth`
+  Trained FastSpeech2 model checkpoint for cross-lingual voice conversion between Taiwanese Mandarin and American English.
+
+  `TextGrid/`  
+  Phoneme-level alignments generated using Montreal Forced Aligner (MFA), for both Common Voice and LJSpeech subsets.
+
+  `lab/`  
+  Original `.lab` label files and processed phoneme/token sequences used during training and inference.
+
+ `filelists/`
+  Subset lists (`train.txt`, `val.txt`, `merged.txt`) specifying selected utterances used in the project.
+
 ## Inference
 
 To run inference, please enter the following command in your terminal:
@@ -32,11 +51,6 @@ python3 synthesize.py \
   -m /config/Common_voice/model.yaml \
   -t /config/Common_voice/train.yaml
 ```
-### Checkpoint
-
-To reproduce the inference results, please download the pre-trained checkpoint from the following link:
-
-➡️ [Download checkpoint (step 50000)](https://drive.google.com/drive/folders/1WF3kUR9l9YqVOvrRiMphB7YKJCrHpPnf?usp=sharing) 
 
 ## Disclaimer
 
