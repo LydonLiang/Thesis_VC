@@ -38,6 +38,18 @@ Contents include:
  `filelists/`
   Subset lists (`train.txt`, `val.txt`, `merged.txt`) specifying selected utterances used in the project.
 
+ ## Tools Used
+
+- [Montreal Forced Aligner (MFA)](https://montreal-forced-aligner.readthedocs.io): Used for generating phoneme alignments.  
+  Original paper: *McAuliffe et al., Interspeech 2017*
+ - **Taiwanese Mandarin**
+  - Acoustic model: Mandarin MFA acoustic model v3.0.0
+  - Dictionary: Mandarin (Taiwan) MFA dictionary v3.0.0
+
+- **English (LJSpeech)**
+  - Acoustic model: English (US) ARPA acoustic model v3.0.0
+  - Dictionary: English (US) ARPA dictionary v3.0.0
+
 ## Inference
 
 To run inference, please enter the following command in your terminal:
