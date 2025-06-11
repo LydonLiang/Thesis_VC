@@ -42,13 +42,15 @@ Contents include:
 
 - [Montreal Forced Aligner (MFA)](https://montreal-forced-aligner.readthedocs.io): Used for generating phoneme alignments.  
   Original paper: *McAuliffe et al., Interspeech 2017*
- - **Taiwanese Mandarin**
+- **Taiwanese Mandarin**
   - Acoustic model: Mandarin MFA acoustic model v3.0.0
   - Dictionary: Mandarin (Taiwan) MFA dictionary v3.0.0
+
 
 - **English (LJSpeech)**
   - Acoustic model: English (US) ARPA acoustic model v3.0.0
   - Dictionary: English (US) ARPA dictionary v3.0.0
+
 
 ## Training
 
